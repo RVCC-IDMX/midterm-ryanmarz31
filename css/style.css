@@ -130,9 +130,40 @@ a:hover {
 
 
 
+/* tablet size */
+
+@media screen and (min-width: 786px) {
+
+    header {
+        font-size: 10pt;
+    }
+
+    
+
+    aside {
+        display: grid;
+        grid-template-columns: 65 65px;
+    }
+
+}
+
+/* desktop screen size */
+
+@media screen and (max-width: 1024px) {
+    
+    aside {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    
+    }
 
 
+}
 
+
+div {
+    max-width:1200px;
+}
 
 
 
