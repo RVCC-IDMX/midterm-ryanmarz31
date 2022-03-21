@@ -25,11 +25,15 @@ header {
     box-shadow: inset 10px 10px 10px black;
     border-radius: 15px 15px 0px 0px;
     background-color: rgba(255, 255, 255, 0.75);
-   
-
+    background-image: url(/img/cave.jpg);
+    background-size: 500px;
 }
 
-
+h2 {
+    border-bottom: dotted;
+    margin: 30px;
+    text-align: left;
+}
 
 /*nav*/
 
@@ -42,6 +46,16 @@ nav {
     box-shadow: inset 10px 10px 10px gray;
     background-color: rgba(255, 255, 255, 0.75);
     
+}
+
+nav li{
+    padding: 10px;
+    display: inline-block;
+    border-right: #765729 4px double;
+}
+
+nav li:last-child {
+    border:none;
 }
 
 /*Main*/
@@ -61,6 +75,13 @@ main{
     background-color: rgba(255, 255, 255, 0.75);
 }
 
+/* Image */
+#cover {
+    float: left;
+    padding:20px;
+    height:500px;
+}
+
 /*Aside*/
 
 aside {
@@ -72,6 +93,8 @@ aside {
     box-shadow: inset 10px 10px 10px gray;
     background-color: rgba(255, 255, 255, 0.75);
 }
+
+
 
 /*Footer*/
 
@@ -86,9 +109,15 @@ footer {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
+/*Book Reviews*/
 
 .opinion {
     font-size:15pt;
+}
+
+.submission {
+    border: 5px solid;
+    background-color: white;
 }
 
 .signature {
@@ -110,10 +139,6 @@ span {
 
 /*Book reviews*/
 
-h2{
-    text-decoration: underline;
-    text-align:left;
-}
 
 /*Links*/
 
