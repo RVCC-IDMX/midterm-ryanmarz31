@@ -130,6 +130,42 @@ a:hover {
 
 
 
+/* tablet size */
+@media screen and (min-width: 786px) {
+
+    header {
+        font-size: 10pt;
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 65 65px;
+    }
+
+}
+
+/* large screen size */
+
+@media screen and (min-width: 100em) {
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+}
 
 
 
