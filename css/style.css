@@ -21,12 +21,12 @@ header {
     text-shadow: 5px 3px 3px black;
     border: 6px solid #886644;
     margin:.1em;
-    padding:10px;
+    padding:30px;
     box-shadow: inset 10px 10px 10px black;
     border-radius: 15px 15px 0px 0px;
     background-color: rgba(255, 255, 255, 0.75);
     background-image: url(/img/cave.jpg);
-    background-size: 500px;
+    background-size: 1000px 300px;
 }
 
 h2 {
@@ -176,7 +176,7 @@ a:hover {
 @media screen and (min-width: 786px) {
 
     header {
-        font-size: 10pt;
+        font-size: 15pt;
     }
 
     
