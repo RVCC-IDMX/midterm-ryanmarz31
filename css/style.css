@@ -66,7 +66,7 @@ p:first-of-type::first-line {
 
 main{
 
-    text-align:center;
+    text-align:left;
     font-size: 10pt;
     border: 5px solid #886644;
     margin:.1em;
@@ -75,12 +75,26 @@ main{
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-/* Image */
+main li {
+    text-align: left;
+}
+
+/* Book Image */
 #cover {
     float: left;
     padding:20px;
-    height:500px;
+    
 }
+
+/* Cryptogram text */
+
+#cryptogram {
+    text-align:center;
+    font-style: italic;
+
+}
+
+
 
 /*Aside*/
 
@@ -117,7 +131,9 @@ footer {
 
 .submission {
     border: 5px solid;
-    background-color: white;
+    background-color: lightgray;
+    padding: 3px;
+    margin: 5px;
 }
 
 .signature {
@@ -181,7 +197,7 @@ a:hover {
         grid-template-columns: 2fr 2fr 2fr;
     
     }
-
+    
 
 }
 
