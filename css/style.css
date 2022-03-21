@@ -60,7 +60,7 @@ nav li:last-child {
 
 /*Main*/
 
-p::first-line {
+p:first-of-type::first-line {
     font-size: 15pt;
 }
 
