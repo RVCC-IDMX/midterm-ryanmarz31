@@ -65,7 +65,6 @@ p:first-of-type::first-line {
 }
 
 main{
-
     text-align:left;
     font-size: 10pt;
     border: 5px solid #886644;
@@ -83,7 +82,7 @@ main li {
 #cover {
     float: left;
     padding:20px;
-    
+    width: 200px;
 }
 
 /* Cryptogram text */
@@ -91,6 +90,7 @@ main li {
 #cryptogram {
     text-align:center;
     font-style: italic;
+    align-self: auto;
 
 }
 
@@ -198,6 +198,9 @@ a:hover {
     
     }
     
+    #cryptogram {
+        max-width: 100%;
+    }
 
 }
 
