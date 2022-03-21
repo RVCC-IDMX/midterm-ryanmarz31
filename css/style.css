@@ -1,0 +1,140 @@
+/* Journey to the Center of the Earth Practicum */
+/* Ryan Marzigliano */
+
+
+/* Body */
+
+body {
+    margin: .1em;
+    padding: 10px;
+    background-image: linear-gradient(#765729, black);
+    
+}
+
+/*header*/
+
+header {
+    text-align:center;
+    font-size: 15pt;
+    font-family: Georgia;
+    color: white;
+    text-shadow: 5px 3px 3px black;
+    border: 6px solid #886644;
+    margin:.1em;
+    padding:10px;
+    box-shadow: inset 10px 10px 10px black;
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.75);
+   
+
+}
+
+
+
+/*nav*/
+
+nav {
+    text-align:center;
+    font-size: 10pt;
+    border: 5px solid #886644;
+    margin:.1em;
+    padding:10px;
+    box-shadow: inset 10px 10px 10px gray;
+    background-color: rgba(255, 255, 255, 0.75);
+    
+}
+
+/*Main*/
+
+p::first-line {
+    font-size: 15pt;
+}
+
+main{
+
+    text-align:center;
+    font-size: 10pt;
+    border: 5px solid #886644;
+    margin:.1em;
+    padding:10px;
+    box-shadow: inset 10px 10px 10px gray;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/*Aside*/
+
+aside {
+    text-align:center;
+    font-size: 10pt;
+    border: 5px solid #886644;
+    margin:.1em;
+    padding:10px;
+    box-shadow: inset 10px 10px 10px gray;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/*Footer*/
+
+footer {
+    text-align:center;
+    font-size: 10pt;
+    border: 5px solid #886644;
+    margin:.1em;
+    padding:10px;
+    box-shadow: inset 10px 10px 10px gray;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+.opinion {
+    font-size:15pt;
+}
+
+.signature {
+    font-style: italic;
+    text-align: right;
+}
+
+/* Character names */
+
+.character{
+    font-weight:bold;
+}
+
+/* Language Fonts*/
+
+span {
+    font-style: italic;
+}
+
+/*Book reviews*/
+
+h2{
+    text-decoration: underline;
+    text-align:left;
+}
+
+/*Links*/
+
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #A52A2A;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
