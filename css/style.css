@@ -6,7 +6,7 @@
 
 body {
     margin: .1em;
-    padding: 10px;
+    padding: 3px;
     background-image: linear-gradient(#765729, black);
     
 }
@@ -26,8 +26,15 @@ header {
     border-radius: 15px 15px 0px 0px;
     background-color: rgba(255, 255, 255, 0.75);
     background-image: url(/img/cave.jpg);
-    background-size: 1000px 300px;
+    background-size: 100%;
+    
 }
+
+
+        
+
+
+
 
 h2 {
     border-bottom: dotted;
@@ -91,10 +98,8 @@ main li {
     text-align:center;
     font-style: italic;
     align-self: auto;
-
+    
 }
-
-
 
 /*Aside*/
 
@@ -153,7 +158,7 @@ span {
     font-style: italic;
 }
 
-/*Book reviews*/
+/*Cryptogram*/
 
 
 /*Links*/
@@ -171,45 +176,30 @@ a:hover {
 
 
 
-/* tablet size */
+/* desktop size */
 
 @media screen and (min-width: 786px) {
 
     header {
-        font-size: 15pt;
+        font-size: 12pt;
     }
-
-    
 
     aside {
         display: grid;
-        grid-template-columns: 65 65px;
     }
-    
 
 }
 
-/* desktop screen size */
+/* tablet screen size */
 
 @media screen and (max-width: 1024px) {
     
-    aside {
-        display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
-    
-    }
-    
-    #cryptogram {
-        max-width: 100%;
-    }
 
-    
-
+#cryptogram {
+    max-width:100%;
 }
+    
 
-
-div {
-    max-width:1200px;
 }
 
 
