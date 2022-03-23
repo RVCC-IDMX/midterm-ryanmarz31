@@ -185,6 +185,7 @@ a:hover {
         display: grid;
         grid-template-columns: 65 65px;
     }
+    
 
 }
 
@@ -201,6 +202,8 @@ a:hover {
     #cryptogram {
         max-width: 100%;
     }
+
+    
 
 }
 
